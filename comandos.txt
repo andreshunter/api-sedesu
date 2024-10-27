@@ -1,0 +1,57 @@
+crear carpeta con nombre app-prueba
+ingresar y en la navegacion de la carpeta poner cmd
+en el cmd se debe ejecutar el siguiente comando:
+
+ionic start app-navegacion blank -—type=angular
+
+seleccionar  NgModules
+luego n y enter
+
+cuando salga Desktop\app-prueba>
+escribir 
+cd app-navegacion
+luego 
+code .
+en visual studio en el comando escribir
+ionic g page pages/enter
+luego
+ionic g page pages/login
+luego
+ionic g page pages/home
+luego
+ionic g page pages/create-user 
+luego
+ionic g page pages/get-institutions
+luego
+ionic g page pages/update
+para SQLITE
+npm install cordova-sqlite-storage
+luego 
+npm install @awesome-cordova-plugins/sqlite
+para el service api
+ionic g service services/api
+para el service db
+ionic g service services/db
+para pasar a android
+ionic cap sync
+npm install @capacitor/android
+instalar de manera local
+npx cap add android
+
+--- para ejecutar en android
+ionic cap open android
+
+ionic cap run android --livereload --external
+
+
+
+
+
+
+D:\ProgramFiles\Java\jdk-17.0.12
+
+C:\Users\Andres\AppData\Local\Android\Sdk
+ANDROID_SDK_ROOT
+
+error running 'app'
+the emulator process for AVD pixel_2_xl has terminated
